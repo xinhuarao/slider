@@ -1,0 +1,109 @@
+html,body {
+    width: 100%;
+}
+*,*:before,*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+}
+.box {
+    position: relative;
+    width: 520px;
+    height: 280px;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.container {
+    width: 3640px;
+    height: 100%;
+    overflow: hidden;
+}
+.first {
+    width: 520px;
+    height: 100%;
+    float: left;
+    background-color: #6F5499;
+    text-align: right;
+}
+.second {
+    width: 520px;
+    height: 100%;
+    float: left;
+    background-color: #E74C3C;
+    text-align: right;
+}
+.third {
+    width: 520px;
+    height: 100%;
+    float: left;
+    background-color: #1FA67A;
+    text-align: right;
+}
+.fourth {
+    width: 520px;
+    height: 100%;
+    float: left;
+    background-color: #3498DB;
+    text-align: right;
+}
+.fifth {
+    width: 520px;
+    height: 100%;
+    float: left;
+    background-color: #E48632;
+    text-align: right;
+}
+.btn-l{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 30px;
+    height: 64px;
+    margin-top: -32px;
+    background-color: rgba(91,91,91,.3);
+}
+.btn-r{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 30px;
+    height: 64px;
+    margin-top: -32px;
+    background-color: rgba(91,91,91,.3);
+}
+.btn-l:before {
+    position: absolute;
+    width: 30px;
+    top: 21px;
+    border-top: 1px solid #fff;
+    transform: rotate(-56deg);
+    content: "";
+    left: -2px;
+}
+.btn-l:after {
+   position: absolute;
+   width: 30px;
+   border-top: 1px solid #fff;
+   transform: rotate(51deg);
+   content: "";
+   top: 45px;
+   left: -1px;
+}
+.btn-r:before {
+    position: absolute;
+    width: 30px;
+    top: 21px;
+    border-top: 1px solid #fff;
+    transform: rotate(47deg);
+    content: "";
+    left: -2px;
+}
+.btn-r:after {
+   position: absolute;
+   width: 30px;
+   border-top: 1px solid #fff;
+   transform: rotate(131deg);
+   content: "";
+   top: 43px;
+   left: -1px;
+}
